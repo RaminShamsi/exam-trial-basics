@@ -33,3 +33,7 @@ The application is accepted if:
 
 ### How can you generate a random number? [2p]
 #### Your answer: [add your answer here]
+The command for Generate Eandom Number in Java is:
+Math.random() which makes random number between 0 - 0.99.
+For Example we can make coin flip:
+Math.random()*2 % 2 ---> the answer can be 0 or 1.

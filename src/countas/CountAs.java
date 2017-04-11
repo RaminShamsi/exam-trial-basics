@@ -20,8 +20,12 @@ public class CountAs {
         System.out.println(lineString);
       }
     } catch (Exception e) {
+      System.out.println("The .txt file does not exist!");
     }
     HashMap result = myDictionary(lineString.toLowerCase());
+    if (result.get('a').equals(0)) {
+      System.out.println("There is no 'A' in the file");
+    }
     System.out.println(result.get('a'));
   }
 

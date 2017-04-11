@@ -24,7 +24,14 @@ public class Pirate {
     pirates.add(new Pirate("Morgan", false, 17));
     pirates.add(new Pirate("Hook", true, 20));
   }
+  public void woodLegs(ArrayList pirates) {
 
+    for (int i = 0; i < pirates.size(); i++) {
+      if (pirates.get(i)) {
+        System.out.println(pirates.get(i));
+      }
+    }
+  }
 
   public static void main(String... args) {
        // Given this list...
@@ -55,34 +62,12 @@ public class Pirate {
     }
 
 
-    //     woodLegs(pirates);
-  }
-
-  public void woodLegs() {
-
-  //  for (int i = 0; i < myList.size(); i++) {
-      //   if ( list.equals(true)) {
-      //     System.out.println(myList.get(i));
-      //   }
-
- //   }
 
   }
+
+
 }
 
 
-//  public static HashMap pirateGoldList(ArrayList myList) {
-//    HashMap<Character, Integer> myHasmap = new HashMap<>();
-//    for (int i = 0; i < myString.length(); i++) {
-//      if (myHasmap.containsKey(myString.charAt(i))) {
-//        myHasmap.put(myString.charAt(i), myHasmap.get(myString.charAt(i)) + 1);
-//      } else {
-//        myHasmap.put(myString.charAt(i), 1);
-//      }
-//    }
-//    return myHasmap;
-//  }
 
-
-//}
 
